@@ -5,7 +5,6 @@ def main():
     print("Input a number, any real number:")
     my_fact = input()
 
-    
     try:
         if isinstance(int(my_fact), int):
             fact = math.factorial(abs(int(my_fact)))
@@ -16,6 +15,5 @@ def main():
         print("Incorrect type of value: error: {}".format(ve))
         main()
     
-
 print(main())
     
